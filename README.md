@@ -1,0 +1,3 @@
+This is our 725 Robust Optimization Project. 
+
+Key idea: robust, optimal evader control strategy against a greedy pursuer. The evader and pursuer are point masses on a 2D plane that adhere to Dubins vehicle dynamics (they have heading, position, angular speed, and velocity), which roughly approximate the dynamics of ships at sea. The evader’s job is to reach its terminal location while maintaining a minimum safe separation radius from the pursuer. We plan to use robust optimization to solve the two stage problem of (1) selecting the evader’s initial launch location (2) and a control policy from the initial launch location to the prescribed terminal location that maintains a minimum safe separation from the pursuer.
